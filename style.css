@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#formContainer {
+    background-color: white; /* white background for the form */
+    padding: 20px; /* space around the content inside the form */
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15); /* slight shadow for a 3D effect */
+    width: 300px; /* fixed width */
+    box-sizing: border-box; /* include padding and border in the element's total width and height */
+}
+
+label {
+    display: block; /* each label on its own line */
+    margin-bottom: 5px; /* space below each label */
+}
+
+input {
+    width: 100%; /* make the input fields take up the full width of the form */
+    margin-bottom: 10px; /* space below each input field */
+    padding: 5px; /* space around the text inside the input fields */
+    box-sizing: border-box; /* include padding and border in the input field's total width and height */
+}
+
+button {
+    width: 100%; /* make the button take up the full width of the form */
+    padding: 10px; /* space around the text inside the button */
+    background-color: #007BFF; /* blue background */
+    color: white; /* white text */
+    border: none; /* remove the default button border */
+    border-radius: 5px; /* slightly rounded corners on the button */
+    cursor: pointer; /* make the mouse cursor change to a hand when hovering over the button */
+}
+
+button:hover {
+    background-color: #0056b3; /* make the button a darker blue when the mouse hovers over it */
+}
+
+#result {
+    margin-top: 20px; /* space above the result text */
+}
